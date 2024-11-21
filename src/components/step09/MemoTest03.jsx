@@ -9,7 +9,7 @@ const hardCalcu = (num) => {
 }   
 
 const easyCalcu = (num) => {
-  console.log("hardCalcu :");
+  console.log("easyCalcu :");
   return num + 10000;
 }  
 
