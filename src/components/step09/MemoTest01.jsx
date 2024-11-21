@@ -7,16 +7,19 @@ import React, { useMemo, useState } from 'react';
 //                     두번째 인수는 해당 계산이 다시 실행될 조건(의존성 배열)
 
 function MemoTest01(props) {
+  console.log("컴포넌트 랜더링")
+
   const [count, setCount] = useState(0);
   const [text, setText] = useState("");
 
-  console.log("컴포넌트 랜더링")
   
   // useMemo 가 없으면 텍스트 입력할때 마다 계산을 해야 한다.
+  // 그러나, input에서 글자를 입력하면 count는 계산하지 않고 기존에 가지고 있는 값 사용
   const expensiveValue = useMemo(() => {
       console.log("useMemo 처리")
       return count + 1000;
   },[count]);
+
 
   return (
     <div>
@@ -37,5 +40,6 @@ function MemoTest01(props) {
     </div>
   );
 }
+
 
 export default MemoTest01;
