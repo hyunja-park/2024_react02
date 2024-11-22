@@ -27,6 +27,8 @@ import RefTest01 from './components/step11/RefTest01.jsx';
 import RefTest02 from './components/step11/RefTest02.jsx';
 import RefTest03 from './components/step11/RefTest03.jsx';
 import RefTest04 from './components/step11/RefTest04.jsx';
+import RefTest05 from './components/step11/RefTest05.jsx';
+import UseIdTest from './components/step12/UseIdTest.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -56,7 +58,9 @@ root.render(
     // <RefTest01 />
     // <RefTest02 />
     // <RefTest03 />
-    <RefTest04 />
+    // <RefTest04 />
+    // <RefTest05 />
+    <UseIdTest />
 
 
 

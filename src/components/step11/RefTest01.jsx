@@ -3,7 +3,7 @@ import React, { useRef, useState } from 'react';
 // useRef는 
 // 1. 값의 유지 : 값의 변화를 추적하지만 값이 변경되더라도 렌더링이 되지 않는다.
 //                불필요한 렌더링 방지
-// 2. DOM 요소 참조
+// 2. DOM 요소 참조 : focus()
 function RefTest01(props) {
     const [count, setCount] = useState(0);
     const countRef = useRef(5);
