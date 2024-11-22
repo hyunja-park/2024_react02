@@ -23,6 +23,10 @@ import MemoTest04 from './components/step09/MemoTest04';
 import Light from './components/step10/Light';
 import CallBackTest01 from './components/step10/CallBackTest01';
 import CallBackTest02 from './components/step10/CallBackTest02.jsx';
+import RefTest01 from './components/step11/RefTest01.jsx';
+import RefTest02 from './components/step11/RefTest02.jsx';
+import RefTest03 from './components/step11/RefTest03.jsx';
+import RefTest04 from './components/step11/RefTest04.jsx';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -48,7 +52,11 @@ root.render(
     // <MemoTest03 />
     // <MemoTest04 />
     // <CallBackTest01 />
-    <CallBackTest02 />
+    // <CallBackTest02 />
+    // <RefTest01 />
+    // <RefTest02 />
+    // <RefTest03 />
+    <RefTest04 />
 
 
 
