@@ -33,6 +33,7 @@ import UseIdTest from './components/step12/UseIdTest.jsx';
 import ContextTest from './components/step14/ContextTest.jsx';
 import ReducerTest01 from './components/step15/ReducerTest01.jsx';
 import ReducerTest02 from './components/step15/ReducerTest02.jsx';
+import ReducerTest03 from './components/step15/ReducerTest03.jsx';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -69,7 +70,9 @@ root.render(
     // <ContextTest />
     // <ContextTest />
     // <ReducerTest01 />
-    <ReducerTest02 />
+      <ReducerTest02 />
+    // <ReducerTest03 />
+    
   
 
 
